@@ -1,2 +1,6 @@
 [context.production.environment]
+<<<<<<< HEAD
   HUGO_VERSION = "0.83.1"
+=======
+  HUGO_VERSION = "0.83.1"
+>>>>>>> 60ed316170ea78e8510dafc59fb8486db35cedbf
