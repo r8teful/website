@@ -1,4 +1,4 @@
-baseurl: "https://r8teful.github.io"
+baseurl: "/"
 title: r8teful
 theme: ghostwriter
 languageCode: en-us
@@ -30,7 +30,6 @@ params:
   github: "https://github.com/r8teful"
   linkedin: "https://linkedin.com/in/XXX/"
   twitter: "https://twitter.com/r8teful"
-  stackoverflow: "https://stackoverflow.com/users/XXX/YYY"
   facebook: "https://www.facebook.com/username"
   email: xxx@example.com
   opengraph: true
@@ -47,10 +46,7 @@ params:
   readingTimeText: "Estimated reading time:"
   fathomUrl: ""
   fathomSiteId: ""
-
-permalinks:
-  post: "/:year/:month/:day/:filename/"
-
+  
 menu:
   main:
     - name: Blog
