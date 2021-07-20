@@ -1,0 +1,58 @@
+baseurl: "/"
+title: r8teful
+theme: ghostwriterW
+languageCode: en-us
+copyright: My Name
+googleAnalytics: XXX
+disqusShortname: XXX
+
+privacy:
+  disqus:
+    disable: true
+  googleAnalytics:
+    anonymizeIP: true
+    respectDoNotTrack: true
+    useSessionStorage: false
+
+author:
+  name: Rik Muijs
+  profile: ""
+
+taxonomies:
+  tag: tags
+
+params:
+  mainSections:
+    -post
+  intro: false
+  headline: r8teful
+  description: I make games and stuff
+  github: "https://github.com/r8teful"
+  twitter: "https://twitter.com/r8teful"
+  email: r8tefulgames@gmail.com
+  opengraph: true
+  shareTwitter: true
+  rss: true
+  shareFacebook: true
+  shareLinkedIn: false
+  dateFormat: "Mon, Jan 2, 2006"
+  exponeaJsUrl: ""
+  exponeaTarget: ""
+  exponeaToken: ""
+  exponeaTrackVisits: false
+  readingTime: true
+  readingTimeText: "Estimated reading time:"
+  fathomUrl: ""
+  fathomSiteId: ""
+
+menu:
+  main:
+    - name: Blog
+      url: /
+      weight: 1
+    - name: Projects
+      url: /project/
+      weight: 2
+    - name: About
+      url: /page/about/
+      weight: 3
