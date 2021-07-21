@@ -3,7 +3,7 @@
 // ============================================================ //
 
 $primary: #ff901f;  // Used in header text
-$secondary: #100026; // Used in dividers and footer
+$secondary: #391369 ; // Used in dividers and footer
 $background: #0C0416; // Main background colour
 
 /* ============================================================ */
@@ -236,7 +236,7 @@ table {
 
 .site-title-wrapper {
     display: table;
-    margin: 0 auto;
+    
 }
 
 .site-title {
@@ -429,7 +429,7 @@ table {
         padding: 20px 5px;
 
         &:hover {
-            background: #FCF5F5;
+            background: $secondary;
             color: $primary;
             padding: 20px 12px;
 

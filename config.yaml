@@ -24,7 +24,7 @@ taxonomies:
 params:
   mainSections:
     -post
-  intro: false
+  intro: true
   headline: r8teful
   description: I make games and stuff
   github: "https://github.com/r8teful"
