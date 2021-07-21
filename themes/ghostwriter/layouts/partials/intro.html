@@ -2,5 +2,28 @@
     <header class="post-header">
         <p class="r8tefulText">{{ .Site.Params.headline }}</p>
         <p>{{ .Site.Params.description }}</p>
+        <div class="socials">
+          {{ with .Site.Params.twitter }}
+              <a class="button-square button-social hint--top" data-hint="Twitter" aria-label="Twitter" href="{{ . }}" rel="me" >
+                  <i class="fa fa-twitter" aria-hidden="true"></i>
+              </a>
+          {{ end }}
+          {{ with .Site.Params.github }}
+              <a class="button-square button-social hint--top" data-hint="Github" aria-label="Github" href="{{ . }}" rel="me">
+                  <i class="fa fa-github-alt" aria-hidden="true"></i>
+              </a>
+          {{ end }}
+          {{ with .Site.Params.linkedin }}
+              <a class="button-square button-social hint--top" data-hint="LinkedIn" aria-label="LinkedIn" href="{{ . }}" rel="me">
+                  <i class="fa fa-linkedin" aria-hidden="true"></i>
+              </a>
+          {{ end }}
+          {{ with .Site.Params.email }}
+              <a class="button-square button-social hint--top" data-hint="Email" aria-label="Send an Email" href="mailto:{{ . }}">
+                  <i class="fa fa-envelope" aria-hidden="true"></i>
+              </a>
+          {{ end }}
+        </div>
     </header>
+
 {{ end }}

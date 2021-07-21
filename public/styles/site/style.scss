@@ -24,22 +24,10 @@ h1, h2, h3, h4, h5, h6 {
     text-transform: none;
 }
 
-/* ============================================================ */
-/* MY OWN STYLES LOL */
-/* ============================================================ */
-
-
 .r8tefulText {
   font-size: 100px;
   font-family: Luckiest guy;
 }
-
-.socials {
-  display: table;
-  margin: 0 auto;
-  text-align: center;
-}
-
 
 h2 { font-size: 24px; }
 h3 { font-size: 20px; margin-bottom: 20px; }
@@ -240,7 +228,7 @@ table {
 /* ============================================================ */
 
 .site-header {
-    padding: 40px 0;
+    padding: 40px 0 0;
     overflow: auto;
     text-align: right;
     text-transform: uppercase;
@@ -275,6 +263,7 @@ table {
 
 .site-nav {
     list-style: none;
+    margin: 28px 0 10px;
     padding: 0;
 }
 
