@@ -3,26 +3,40 @@
         <p class="r8tefulText">{{ .Site.Params.headline }}</p>
         <p>{{ .Site.Params.description }}</p>
         <div class="socials">
-          {{ with .Site.Params.twitter }}
-              <a class="button-square button-social hint--top" data-hint="Twitter" aria-label="Twitter" href="{{ . }}" rel="me" >
-                  <i class="fa fa-twitter" aria-hidden="true"></i>
+          <div class="row">
+            <div class="socialimg">
+              <a href="https://twitter.com/r8teful">
+                  <img src="/twitter.svg">
               </a>
-          {{ end }}
-          {{ with .Site.Params.github }}
-              <a class="button-square button-social hint--top" data-hint="Github" aria-label="Github" href="{{ . }}" rel="me">
-                  <i class="fa fa-github-alt" aria-hidden="true"></i>
+            </div>
+            <div class="socialimg">
+              <a href="https://www.youtube.com/user/r8teful">
+                 <img src="/youtube.svg">
               </a>
-          {{ end }}
-          {{ with .Site.Params.linkedin }}
-              <a class="button-square button-social hint--top" data-hint="LinkedIn" aria-label="LinkedIn" href="{{ . }}" rel="me">
-                  <i class="fa fa-linkedin" aria-hidden="true"></i>
+            </div>
+            <div class="socialimg">
+              <a href="https://www.instagram.com/r8teful">
+                 <img src="/instagram.svg">
               </a>
-          {{ end }}
-          {{ with .Site.Params.email }}
-              <a class="button-square button-social hint--top" data-hint="Email" aria-label="Send an Email" href="mailto:{{ . }}">
-                  <i class="fa fa-envelope" aria-hidden="true"></i>
+            </div>
+          </div>
+          <div class="row">
+            <div class="socialimg">
+              <a href="https://github.com/r8teful">
+                <img src="/github.svg">
               </a>
-          {{ end }}
+            </div>
+            <div class="socialimg">
+              <a href="https://r8teful.itch.io/">
+                  <img src="/itch-io.svg">
+              </a>
+            </div>
+            <div class="socialimg">
+              <a href="mailto: r8tefulgames@gmail.com">
+                  <img src="/email.svg">
+              </a>
+            </div>
+          </div>
         </div>
     </header>
 

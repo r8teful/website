@@ -6,6 +6,47 @@ $primary: #ff901f;  // Used in header text
 $secondary: #391369 ; // Used in dividers and footer
 $background: #0C0416; // Main background colour
 
+
+/* ============================================================ */
+/* MY OWN STYLES LOL */
+/* ============================================================ */
+
+
+.r8tefulText {
+  font-size: 120px;
+  font-family: Luckiest guy;
+  margin: 0px;
+}
+
+.socials {
+    margin: 0 auto;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+
+    .socialimg {
+      flex: none;
+      order: 1;
+      align-self: stretch;
+      flex-grow: 0;
+      margin: 0px 24px;
+      transition: all 1s;
+      &:hover {
+        transform: scale(1.2);
+        filter: brightness(0) saturate(100%) invert(72%) sepia(22%) saturate(7348%) hue-rotate(344deg)
+        brightness(102%) contrast(101%);
+      }
+    }
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+}
+
 /* ============================================================ */
 /* Base */
 /* ============================================================ */
@@ -22,22 +63,6 @@ body {
 h1, h2, h3, h4, h5, h6 {
     margin-bottom: 20px;
     text-transform: none;
-}
-
-/* ============================================================ */
-/* MY OWN STYLES LOL */
-/* ============================================================ */
-
-
-.r8tefulText {
-  font-size: 100px;
-  font-family: Luckiest guy;
-}
-
-.socials {
-  display: table;
-  margin: 0 auto;
-  text-align: center;
 }
 
 
@@ -603,6 +628,7 @@ table {
 
 @media only screen and (max-width: 800px) {
     .post-stub-tag { display: none; }
+    .socials {flex-direction: column}
 }
 
 @media only screen and (max-width: 600px) {
