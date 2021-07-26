@@ -45,7 +45,8 @@ $background: #0C0416; // Main background colour
 .row {
   display: flex;
   flex-direction: row;
-  width: 360px;
+  width: 600px;
+  justify-content: space-around;
 }
 
 /* ============================================================ */
