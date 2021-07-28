@@ -13,17 +13,12 @@ privacy:
     anonymizeIP: true
     respectDoNotTrack: true
     useSessionStorage: false
-
-author:
-  name: Rik Muijs
-  profile: ""
-
+    
 taxonomies:
   tag: tags
 
 params:
   mainSections:
-    -post
   intro: true
   headline: r8teful
   description: I make games and stuff
@@ -48,11 +43,11 @@ params:
 menu:
   main:
     - name: Blog
-      url: /
+      url: /post/
       weight: 1
-    - name: Projects
-      url: /project/
-      weight: 2
+#    - name: Projects
+#      url: /project/
+#      weight: 2
     - name: About
-      url: /page/about/
+      url: /about
       weight: 3

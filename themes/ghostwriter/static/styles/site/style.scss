@@ -17,6 +17,11 @@ $background: #0C0416; // Main background colour
   font-family: Luckiest guy;
   margin: 0px;
 }
+.r8tefulTextSmaller {
+  font-size: 80px;
+  font-family: Luckiest guy;
+  margin: 0px;
+}
 
 .socials {
     margin: 0 auto;
@@ -32,8 +37,8 @@ $background: #0C0416; // Main background colour
       order: 1;
       align-self: stretch;
       flex-grow: 0;
-      margin: 0px 24px;
       transition: all 1s;
+      padding: 0 15px;
       &:hover {
         transform: scale(1.2);
         filter: brightness(0) saturate(100%) invert(72%) sepia(22%) saturate(7348%) hue-rotate(344deg)
@@ -45,7 +50,6 @@ $background: #0C0416; // Main background colour
 .row {
   display: flex;
   flex-direction: row;
-  width: 600px;
   justify-content: space-around;
 }
 
@@ -311,7 +315,7 @@ table {
     font-weight: 700;
     margin: 0 10px;
 
-    a:hover { color: #424242; }
+    a:hover { color: $secondary; }
 }
 
 /* ============================================================ */
@@ -324,6 +328,11 @@ table {
 
 .post-header {
     border-bottom: 6px solid $secondary;
+    margin: 0 0 20px;
+    padding: 0 0 20px;
+    text-align: center;
+}
+.post-header-main {
     margin: 0 0 20px;
     padding: 0 0 20px;
     text-align: center;

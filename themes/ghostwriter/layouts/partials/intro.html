@@ -1,5 +1,12 @@
-{{ if .Site.Params.intro }}
-    <header class="post-header">
+{{ if eq .Section "post"}}
+<header class="post-header">
+  <p class="r8tefulTextSmaller"> Blog</p>
+  <p>All my posts in one place</p>
+</header>
+
+
+{{ else if .Site.Params.intro }}
+    <header class="post-header-main">
         <p class="r8tefulText">{{ .Site.Params.headline }}</p>
         <p>{{ .Site.Params.description }}</p>
         <div class="socials">
