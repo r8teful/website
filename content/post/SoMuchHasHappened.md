@@ -1,5 +1,5 @@
 +++
-title = "So much has happened!"
+title = "So much has happened"
 description = ""
 date = "2023-08-15"
 +++
