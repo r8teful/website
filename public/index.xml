@@ -6,7 +6,7 @@
     <description>Recent content on r8teful</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <copyright>My Name</copyright>
+    <copyright>My name</copyright>
     <lastBuildDate>Tue, 15 Aug 2023 00:00:00 +0000</lastBuildDate><atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>So much has happened</title>
@@ -43,6 +43,15 @@
       <guid>/about/</guid>
       <description>Hi! I&amp;rsquo;m Rik Muijs, otherwise known as r8teful, I was born in The Netherlands on August 1999 and moved to Sweden at age 6. My interests are in game development and content creation. I&amp;rsquo;m currently studying at Chalmers University for my Computer Science degree with a master in Interaction Design and Technologies with specialization in Game development. I love creating games and videos for people enjoy!
 Background I have been into computers as far back as I can remember.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>/games/temp/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/games/temp/</guid>
+      <description></description>
     </item>
     
   </channel>

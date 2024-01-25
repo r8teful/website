@@ -4,6 +4,15 @@
   <p>All my posts in one place</p>
 </header>
 
+{{ else if eq .Section "games"}}
+<header class="post-header">
+  <p class="r8tefulTextSmaller"> Games</p>
+  <p> All my current games can be found on my
+    <a href="https://r8teful.itch.io/"> itch.io page! (click) </a> 
+  </p>
+  
+</header>
+
 
 {{ else if .Site.Params.intro }}
     <header class="post-header-main">

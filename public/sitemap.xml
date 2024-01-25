@@ -20,6 +20,10 @@
     <loc>/about/</loc>
     <lastmod>2021-07-26T00:00:00+02:00</lastmod>
   </url><url>
+    <loc>/games/temp/</loc>
+  </url><url>
+    <loc>/games/</loc>
+  </url><url>
     <loc>/tags/</loc>
   </url>
 </urlset>

@@ -2,17 +2,19 @@
 
 <div id="post-index" class="container">
     {{ partial "intro.html" . }}
+    <!-- For the games tab 
 
-    <ol class="post-list">
-        {{ $pag := .Paginate .Pages }}
-        {{ range $pag.Pages }}
+        <ol class="post-list">
+            {{ $pag := .Paginate .Pages }}
+            {{ range $pag.Pages }}
             {{ partial "page-stub.html" . }}
-        {{ end }}
-    </ol>
-
-    <div class="post-navigation">
-        {{ partial "pagination.html" . }}
-    </div>
-</div>
+            {{ end }}
+        </ol>
+        
+        <div class="post-navigation">
+            {{ partial "pagination.html" . }}
+        </div>
+    </div> 
+-->
 
 {{ partial "footer.html" . }}
