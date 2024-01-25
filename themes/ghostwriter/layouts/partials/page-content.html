@@ -2,6 +2,10 @@
     {{ with .Params.Image }}
         <img class="post-featured-image" src="{{ . }}">
     {{ end }}
-
     {{ .Content }}
+    <!--This is the only way I got the discord widget to show in the thankyou page-->
+    {{ if eq .Title "About"}}
+    {{ else }}
+    <iframe src="https://discord.com/widget?id=1199011796774813756&theme=dark" width="350" height="500" allowtransparency="true" frameborder="0" sandbox="allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts"></iframe>
+    {{end}}
 </div>
